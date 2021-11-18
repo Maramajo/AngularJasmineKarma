@@ -11,7 +11,7 @@ describe('workspace-project App', () => {
   it('should display welcome message', () => {
     page.navigateTo();
     expect(page.getTitleText()).toEqual('RudraTech2014 app is running!');
-    browser.sleep(5000); 
+    browser.sleep(5000);  
   });
 
   afterEach(async () => {
